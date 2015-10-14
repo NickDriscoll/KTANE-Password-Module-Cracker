@@ -26,9 +26,7 @@ namespace BombPasswordCracker
         {
             string row1 = firstRow.Text;
             string row2 = secondRow.Text;
-            string row3 = thirdRow.Text;
             string row4 = fourthRow.Text;
-            string row5 = fifthRow.Text;
 
             string finalWord = "";
 
@@ -47,21 +45,9 @@ namespace BombPasswordCracker
                                 {
                                     for (int k = 0; k < 6; k++)
                                     {
-                                        if (row3[k] == word[2])
+                                        if (row4[k] == word[3])
                                         {
-                                            for (int l = 0; l < 6; l++)
-                                            {
-                                                if (row4[l] == word[3])
-                                                {
-                                                    for (int m = 0; m < 6; m++)
-                                                    {
-                                                        if (row5[m] == word[4])
-                                                        {
-                                                            finalWord = word;
-                                                        }
-                                                    }
-                                                }
-                                            }
+                                            finalWord = word;
                                         }
                                     }
                                 }
@@ -70,7 +56,7 @@ namespace BombPasswordCracker
                     }
                 }
 
-                label1.Text = "The password is: " + finalWord;
+                label1.Text = "The password is: " +  finalWord;
             }
             catch
             {

@@ -31,15 +31,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.firstRow = new System.Windows.Forms.TextBox();
-            this.fifthRow = new System.Windows.Forms.TextBox();
-            this.fourthRow = new System.Windows.Forms.TextBox();
-            this.thirdRow = new System.Windows.Forms.TextBox();
             this.secondRow = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.fourthRow = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -69,27 +65,6 @@
             this.firstRow.Size = new System.Drawing.Size(100, 22);
             this.firstRow.TabIndex = 2;
             // 
-            // fifthRow
-            // 
-            this.fifthRow.Location = new System.Drawing.Point(38, 137);
-            this.fifthRow.Name = "fifthRow";
-            this.fifthRow.Size = new System.Drawing.Size(100, 22);
-            this.fifthRow.TabIndex = 3;
-            // 
-            // fourthRow
-            // 
-            this.fourthRow.Location = new System.Drawing.Point(195, 92);
-            this.fourthRow.Name = "fourthRow";
-            this.fourthRow.Size = new System.Drawing.Size(100, 22);
-            this.fourthRow.TabIndex = 5;
-            // 
-            // thirdRow
-            // 
-            this.thirdRow.Location = new System.Drawing.Point(38, 92);
-            this.thirdRow.Name = "thirdRow";
-            this.thirdRow.Size = new System.Drawing.Size(100, 22);
-            this.thirdRow.TabIndex = 6;
-            // 
             // secondRow
             // 
             this.secondRow.Location = new System.Drawing.Point(195, 49);
@@ -115,15 +90,6 @@
             this.label3.TabIndex = 10;
             this.label3.Text = "Second Row";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(70, 74);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(72, 17);
-            this.label4.TabIndex = 11;
-            this.label4.Text = "Third Row";
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -133,29 +99,23 @@
             this.label5.TabIndex = 12;
             this.label5.Text = "Fourth Row";
             // 
-            // label6
+            // fourthRow
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(70, 117);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(66, 17);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "Fifth Row";
+            this.fourthRow.Location = new System.Drawing.Point(195, 92);
+            this.fourthRow.Name = "fourthRow";
+            this.fourthRow.Size = new System.Drawing.Size(100, 22);
+            this.fourthRow.TabIndex = 5;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(381, 338);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.secondRow);
-            this.Controls.Add(this.thirdRow);
             this.Controls.Add(this.fourthRow);
-            this.Controls.Add(this.fifthRow);
             this.Controls.Add(this.firstRow);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
@@ -171,15 +131,11 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox firstRow;
-        private System.Windows.Forms.TextBox fifthRow;
-        private System.Windows.Forms.TextBox fourthRow;
-        private System.Windows.Forms.TextBox thirdRow;
         private System.Windows.Forms.TextBox secondRow;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox fourthRow;
     }
 }
 
