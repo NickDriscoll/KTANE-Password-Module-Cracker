@@ -56,18 +56,20 @@ namespace BombPasswordCracker
                     }
                 }
 
-                label1.Text = "The password is: " +  finalWord;
+                if (finalWord == "")
+                {
+                    label1.Text = "The letters you provided didn't match any passwords.";
+                }
+                else
+                {
+                    label1.Text = "The password is: " + finalWord.ToUpper();
+                }
+
             }
             catch
             {
-                label1.Text = "One or more of your columns are less than six letters long.";
+                label1.Text = "One or more of your columns contain less than six letters.";
             }
-            
-
         }
-
-
-
-
     }
 }
