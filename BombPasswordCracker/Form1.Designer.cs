@@ -40,6 +40,7 @@
             this.fourthRow = new System.Windows.Forms.TextBox();
             this.fifthRow = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -58,7 +59,7 @@
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(149, 23);
-            this.button1.TabIndex = 5;
+            this.button1.TabIndex = 6;
             this.button1.Text = "Calculate Final word";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -137,7 +138,7 @@
             this.fifthRow.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.fifthRow.Name = "fifthRow";
             this.fifthRow.Size = new System.Drawing.Size(100, 22);
-            this.fifthRow.TabIndex = 14;
+            this.fifthRow.TabIndex = 5;
             // 
             // label6
             // 
@@ -148,11 +149,22 @@
             this.label6.TabIndex = 15;
             this.label6.Text = "Fifth Column";
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(112, 270);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(149, 23);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "Clear";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(381, 338);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.fifthRow);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.fourthRow);
@@ -187,6 +199,7 @@
         private System.Windows.Forms.TextBox fourthRow;
         private System.Windows.Forms.TextBox fifthRow;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button2;
     }
 }
 

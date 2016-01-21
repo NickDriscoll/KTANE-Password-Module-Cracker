@@ -82,5 +82,14 @@ namespace BombPasswordCracker
                 label1.Text = "One or more of your columns contain less than six letters.";
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            firstRow.Text = "";
+            secondRow.Text = "";
+            thirdRow.Text = "";
+            fourthRow.Text = "";
+            fifthRow.Text = "";
+        }
     }
 }
